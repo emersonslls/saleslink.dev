@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --branco: #E6E8E6;
+    --preto: #171615;
+    --azul: #3772FF;
+}
+
+.Inicio {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+
+    background-color: var(--preto);
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.Header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    top: 69px;
+}
+
+.Header img {
+    position: absolute;
+    width: 65.08px;
+    height: 56.55px;
+    left: 491px;
+    top: calc(50% - 56.55px/2);
+}
+
+.InforPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 305px;
+    height: 300px;
+    left: calc(50% - 305px/2);
+    top: 70px;
+}
+
+.InforPerfil img {
+    width: 217px;
+    height: 217px;
+}
+
+.Informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap:0px;
+
+    width: 305px;
+    height: 92px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Informacoes h1 {
+    width: 305px;
+    height: 62px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41.0504px;
+    line-height: 62px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: var(--branco);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Informacoes h2 {
+    left: calc(50% - 223px/2);
+    position: absolute;
+    bottom: 0;
+    width: 223px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+svg {
+    position: absolute;
+    width: 21px;
+    height: 26.25px;
+    left: calc(50% - 21px/2);
+    top: 370px;
+}
+
+/* ========== LINKS ========== */
+
+.Links {
+    /* Redes   */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    position: absolute;
+    width: 500px;
+    height: 560px;
+    left: calc(50% - 500px/2);
+    top: 405px;
+}
+
+/* ========== PORTFOLIIO ========= */
+
+.Portfolio {
+    position: relative;
+    width: 500px;
+    height: 100px;
+
+    background: linear-gradient(90deg, #2E2C2A 0%, #171615 100%);
+    border-radius: 25px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Portfolio img {
+    position: relative;
+    width: 78.9px;
+    height: 75px;
+    left: 22px;
+    top: 12px;
+}
+
+.InforPort {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    right: 0px;
+    top: calc(50% - 100px/2);
+
+    background: linear-gradient(90deg, #171615 0%, #2E2C2A 100%);
+    box-shadow: -4px 0px 5px rgba(11, 10, 7, 0.15);
+    border-radius: 20px 25px 25px 20px;
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.InforPort img {
+    position: absolute;
+    width: 263.45px;
+    height: auto;
+    left: 120px;
+    top: -5px;
+
+    mix-blend-mode: color-dodge;
+}
+
+.InforPort svg {
+    position: absolute;
+    height: 12.01px;
+    left: 87.06%;
+    right: 8.08%;
+    top: calc(50% - 12.01px/2);
+
+    z-index: 9;
+}
+
+.InforPort h1 {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 25px;
+    top: calc(50% - 32px/2);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4548px;
+    line-height: 32px;
+    text-align: center;
+
+    color: var(--azul);
+}
+
+.InfLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0.8px;
+
+    position: relative;
+    width: 26.91px;
+    height: 12px;
+    left: 25px;
+    top: 15px;
+}
+
+.InfLink svg {
+    position: relative;
+    width: 9.29px;
+    height: 8.01px;
+    top: 0;
+    left: 0;
+}
+
+.InfLink h2 {
+    width: 17px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+/* ========== INSTAGRAM ========= */
+
+.Instagram {
+    position: relative;
+    width: 500px;
+    height: 100px;
+
+    background: linear-gradient(90deg, #2E2C2A 0%, #171615 100%);
+    border-radius: 25px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Instagram img {
+    position: relative;
+    width: 78.9px;
+    height: 75px;
+    left: 22px;
+    top: 12px;
+}
+
+.InforInsta {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    right: 0px;
+    top: calc(50% - 100px/2);
+
+    background: linear-gradient(90deg, #171615 0%, #2E2C2A 100%);
+    box-shadow: -4px 0px 5px rgba(11, 10, 7, 0.15);
+    border-radius: 20px 25px 25px 20px;
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.InforInsta img {
+    position: absolute;
+    width: 273.45px;
+    height: auto;
+    left: 120px;
+    top: 0;
+
+    mix-blend-mode: color-dodge;
+}
+
+.InforInsta svg {
+    position: absolute;
+    height: 12.01px;
+    left: 87.06%;
+    right: 8.08%;
+    top: calc(50% - 12.01px/2);
+
+    z-index: 9;
+}
+
+.InforInsta h1 {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 25px;
+    top: calc(50% - 32px/2);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4548px;
+    line-height: 32px;
+    text-align: center;
+
+    color: var(--azul);
+}
+
+.InfLinkInst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0.8px;
+
+    position: relative;
+    width: 52.91px;
+    height: 12px;
+    left: 25px;
+    top: 15px;
+}
+
+.InfLinkInst svg {
+    position: relative;
+    width: 9.29px;
+    height: 8.01px;
+    top: 0;
+    left: 0;
+}
+
+.InfLinkInst h2 {
+    width: 41px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ========== LINKEDIN ========= */
+
+.LinkedIn {
+    position: relative;
+    width: 500px;
+    height: 100px;
+
+    background: linear-gradient(90deg, #2E2C2A 0%, #171615 100%);
+    border-radius: 25px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.LinkedIn img {
+    position: relative;
+    width: 78.9px;
+    height: 75px;
+    left: 22px;
+    top: 12px;
+}
+
+.InforLinked {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    right: 0px;
+    top: calc(50% - 100px/2);
+
+    background: linear-gradient(90deg, #171615 0%, #2E2C2A 100%);
+    box-shadow: -4px 0px 5px rgba(11, 10, 7, 0.15);
+    border-radius: 20px 25px 25px 20px;
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.InforLinked img {
+    position: absolute;
+    width: 263.45px;
+    height: auto;
+    left: 120px;
+    top: 0;
+
+    mix-blend-mode: color-dodge;
+}
+
+.InforLinked svg {
+    position: absolute;
+    height: 12.01px;
+    left: 87.06%;
+    right: 8.08%;
+    top: calc(50% - 12.01px/2);
+
+    z-index: 9;
+}
+
+.InforLinked h1 {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 25px;
+    top: calc(50% - 32px/2);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4548px;
+    line-height: 32px;
+    text-align: center;
+
+    color: var(--azul);
+}
+
+.InfLinkLinkedIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0.8px;
+
+    position: relative;
+    width: 52.91px;
+    height: 12px;
+    left: 25px;
+    top: 15px;
+}
+
+.InfLinkLinkedIn svg {
+    position: relative;
+    width: 9.29px;
+    height: 8.01px;
+    top: 0;
+    left: 0;
+}
+
+.InfLinkLinkedIn h2 {
+    width: 41px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ========== GITHUB ========= */
+
+.GitHub {
+    position: relative;
+    width: 500px;
+    height: 100px;
+
+    background: linear-gradient(90deg, #2E2C2A 0%, #171615 100%);
+    border-radius: 25px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.GitHub img {
+    position: relative;
+    width: 78.9px;
+    height: 75px;
+    left: 22px;
+    top: 12px;
+}
+
+.InforGit {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    right: 0px;
+    top: calc(50% - 100px/2);
+
+    background: linear-gradient(90deg, #171615 0%, #2E2C2A 100%);
+    box-shadow: -4px 0px 5px rgba(11, 10, 7, 0.15);
+    border-radius: 20px 25px 25px 20px;
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.InforGit img {
+    position: absolute;
+    width: 263.45px;
+    height: auto;
+    left: 120px;
+    top: 0;
+
+    mix-blend-mode: color-dodge;
+}
+
+.InforGit svg {
+    position: absolute;
+    height: 12.01px;
+    left: 87.06%;
+    right: 8.08%;
+    top: calc(50% - 12.01px/2);
+
+    z-index: 9;
+}
+
+.InforGit h1 {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 25px;
+    top: calc(50% - 32px/2);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4548px;
+    line-height: 32px;
+    text-align: center;
+
+    color: var(--azul);
+}
+
+.InfLinkGit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0.8px;
+
+    position: relative;
+    width: 52.91px;
+    height: 12px;
+    left: 25px;
+    top: 15px;
+}
+
+.InfLinkGit svg {
+    position: relative;
+    width: 9.29px;
+    height: 8.01px;
+    top: 0;
+    left: 0;
+}
+
+.InfLinkGit h2 {
+    width: 41px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* ========== EMAIL ========= */
+
+.Email {
+    position: relative;
+    width: 500px;
+    height: 100px;
+
+    background: linear-gradient(90deg, #2E2C2A 0%, #171615 100%);
+    border-radius: 25px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Email img {
+    position: relative;
+    width: 78.9px;
+    height: 75px;
+    left: 22px;
+    top: 12px;
+}
+
+.InforEmail {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    right: 0px;
+    top: calc(50% - 100px/2);
+
+    background: linear-gradient(90deg, #171615 0%, #2E2C2A 100%);
+    box-shadow: -4px 0px 5px rgba(11, 10, 7, 0.15);
+    border-radius: 20px 25px 25px 20px;
+
+    overflow: hidden;
+    /* Para cortar qualquer coisa que ultrapasse a div */
+}
+
+.InforEmail img {
+    position: absolute;
+    width: 263.45px;
+    height: auto;
+    left: 120px;
+    top: -5px;
+
+    mix-blend-mode: color-dodge;
+}
+
+.InforEmail svg {
+    position: absolute;
+    height: 12.01px;
+    left: 87.06%;
+    right: 8.08%;
+    top: calc(50% - 12.01px/2);
+
+    z-index: 9;
+}
+
+.InforEmail h1 {
+    position: absolute;
+    width: 75px;
+    height: 32px;
+    left: 25px;
+    top: calc(50% - 32px/2);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4548px;
+    line-height: 32px;
+    text-align: center;
+
+    color: var(--azul);
+}
+
+.InfLinkEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0.8px;
+
+    position: relative;
+    width: 60px;
+    height: 12px;
+    left: 25px;
+    top: 15px;
+}
+
+.InfLinkEmail svg {
+    position: relative;
+    width: 9.29px;
+    height: 8.01px;
+    top: 0;
+    left: 0;
+}
+
+.InfLinkEmail h2 {
+    width: 50px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: var(--branco);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ======== FOOTER ========== */
+
+.Footer {
+    position: absolute;
+    width: 100%;
+    height: 66px;
+    left: 0;
+    bottom: 5px;
+}
+
+.FeitoEDireitos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 9px;
+
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: calc(50% - 300px/2);
+    top: calc(50% - 60px/2);
+}
+
+.Feito {
+    position: absolute;
+    width: 139px;
+    height: 23px;
+    left: calc(50% - 139px/2);
+    top: 5px;
+}
+
+.Feito h1 {
+    width: 70px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.1636px;
+    line-height: 23px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: var(--branco);
+}
+
+.Feito a {
+    position: absolute;
+    left: 72px;
+    color: var(--branco);
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.Feito a:hover {
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.Direitos {
+    position: absolute;
+    width: 253px;
+    height: 27px;
+    left: calc(50% - 253px/2);
+    bottom: 0;
+}
+
+.Direitos h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: var(--branco);
+}

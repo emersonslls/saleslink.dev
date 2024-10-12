@@ -1,0 +1,478 @@
+        /* CSS Responsivo */
+
+        /* CSS CELULAR */
+
+        /*============== Inicio ==============*/
+
+        @media only screen and (width >=320px) and (width <=430px) {
+
+            /* ----- INICIO ----- */
+
+            .Inicio {
+                height: 100vh;
+            }
+
+            /* ---- HEADER ---- */
+
+            .Header {
+                height: 45px;
+                top: 95px;
+            }
+
+            .Header img {
+                width: 36.54px;
+                height: 31.74px;
+                left: 50px;
+                top: calc(50% - 31.74px/2);
+            }
+
+            .InforPerfil {
+                padding: 0px;
+                gap: 5.89px;
+
+                width: 160px;
+                height: 191px;
+                left: calc(50% - 160px/2);
+                top: 60px;
+            }
+
+            .InforPerfil img {
+                width: 140px;
+                height: 140px;
+            }
+
+            .Informacoes {
+                width: 160px;
+                height: 45px;
+
+                gap: 5px;
+            }
+
+            .Informacoes h1 {
+                width: 160px;
+                height: 30px;
+
+                font-size: 21.5px;
+                line-height: 30px;
+                text-align: center;
+            }
+
+            .Informacoes h2 {
+                position: absolute;
+                left: calc(50% - 130px/2);
+                bottom: 0px;
+
+                width: 130px;
+                height: 15px;
+
+                font-size: 12px;
+                line-height: 15px;
+            }
+
+            svg {
+                position: absolute;
+                width: 21px;
+                height: 26.25px;
+                left: calc(50% - 21px/2);
+                top: 260px;
+            }
+
+            /* ========== LINKS ========== */
+
+            .Links {
+                gap: 10.8px;
+
+                position: absolute;
+                width: 360px;
+                height: 403.2px;
+                left: calc(50% - 360px/2);
+                top: 300px;
+            }
+
+            /* ========== PORTFOLIIO ========= */
+
+            .Portfolio {
+                width: 360px;
+                height: 72px;
+
+                border-radius: 18px;
+            }
+
+            .Portfolio img {
+                width: 56.81px;
+                height: 54px;
+                left: 15.84px;
+                top: 8.64px;
+            }
+
+            .InforPort {
+                width: 272.16px;
+                height: 72px;
+                top: calc(50% - 72px/2);
+
+                box-shadow: -2.88px 0px 3.6px rgba(11, 10, 7, 0.15);
+                border-radius: 14.4px 18px 18px 14.4px;
+            }
+
+            .InforPort img {
+                width: 189.68px;
+                height: 106.7px;
+                left: 85px;
+                top: -30px;
+            }
+
+            .InforPort svg {
+                height: 8.65px;
+                left: 90.06%;
+                right: 8.08%;
+                top: calc(50% - 8.65px/2);
+
+                z-index: 9;
+            }
+
+            .InforPort h1 {
+                width: 68px;
+                height: 23px;
+                left: 18px;
+                top: calc(50% - 23px/2 - 0.02px);
+
+                font-size: 15.4474px;
+                line-height: 23px;
+            }
+
+            .InfLink {
+                left: 18px;
+                top: 12px;
+            }
+
+            .InfLink svg {
+                top: 0;
+                left: 0;
+            }
+
+            /* ========== INSTAGRAM ========= */
+
+            .Instagram {
+                width: 360px;
+                height: 72px;
+
+                border-radius: 18px;
+            }
+
+            .Instagram img {
+                width: 56.81px;
+                height: 54px;
+                left: 15.84px;
+                top: 8.64px;
+            }
+
+            .InforInsta {
+                width: 272.16px;
+                height: 72px;
+                top: calc(50% - 72px/2);
+
+                box-shadow: -2.88px 0px 3.6px rgba(11, 10, 7, 0.15);
+                border-radius: 14.4px 18px 18px 14.4px;
+            }
+
+            .InforInsta img {
+                width: 189.68px;
+                height: 106.7px;
+                left: 85px;
+                top: -20px;
+            }
+
+            .InforInsta svg {
+                height: 8.65px;
+                left: 90.06%;
+                right: 8.08%;
+                top: calc(50% - 8.65px/2);
+
+                z-index: 9;
+            }
+
+            .InforInsta h1 {
+                width: 85px;
+                height: 23px;
+                left: 18px;
+                top: calc(50% - 23px/2 - 0.02px);
+
+                font-size: 15.4474px;
+                line-height: 23px;
+            }
+
+            .InfLinkInst {
+                left: 18px;
+                top: 12px;
+            }
+
+            .InfLinkInst svg {
+                top: 0;
+                left: 0;
+            }
+
+            /* ========== LINKEDIN ========= */
+
+            .LinkedIn {
+                width: 360px;
+                height: 72px;
+
+                border-radius: 18px;
+            }
+
+            .LinkedIn img {
+                width: 56.81px;
+                height: 54px;
+                left: 15.84px;
+                top: 8.64px;
+            }
+
+            .InforLinked {
+                width: 272.16px;
+                height: 72px;
+                top: calc(50% - 72px/2);
+
+                box-shadow: -2.88px 0px 3.6px rgba(11, 10, 7, 0.15);
+                border-radius: 14.4px 18px 18px 14.4px;
+            }
+
+            .InforLinked img {
+                width: 189.68px;
+                height: 106.7px;
+                left: 85px;
+                top: -10px;
+            }
+
+            .InforLinked svg {
+                height: 8.65px;
+                left: 90.06%;
+                right: 8.08%;
+                top: calc(50% - 8.65px/2);
+
+                z-index: 9;
+            }
+
+            .InforLinked h1 {
+                width: 68px;
+                height: 23px;
+                left: 18px;
+                top: calc(50% - 23px/2 - 0.02px);
+
+                font-size: 15.4474px;
+                line-height: 23px;
+            }
+
+            .InfLinkLinkedIn {
+                left: 18px;
+                top: 12px;
+            }
+
+            .InfLinkLinkedIn svg {
+                top: 0;
+                left: 0;
+            }
+
+            /* ========== GITHUB ========= */
+
+            .GitHub {
+                width: 360px;
+                height: 72px;
+
+                border-radius: 18px;
+            }
+
+            .GitHub img {
+                width: 56.81px;
+                height: 54px;
+                left: 15.84px;
+                top: 8.64px;
+            }
+
+            .InforGit {
+                width: 272.16px;
+                height: 72px;
+                top: calc(50% - 72px/2);
+
+                box-shadow: -2.88px 0px 3.6px rgba(11, 10, 7, 0.15);
+                border-radius: 14.4px 18px 18px 14.4px;
+            }
+
+            .InforGit img {
+                width: 189.68px;
+                height: 106.7px;
+                left: 85px;
+                top: -10px;
+            }
+
+            .InforGit svg {
+                height: 8.65px;
+                left: 90.06%;
+                right: 8.08%;
+                top: calc(50% - 8.65px/2);
+
+                z-index: 9;
+            }
+
+            .InforGit h1 {
+                width: 58px;
+                height: 23px;
+                left: 18px;
+                top: calc(50% - 23px/2 - 0.02px);
+
+                font-size: 15.4474px;
+                line-height: 23px;
+            }
+
+            .InfLinkGit {
+                left: 18px;
+                top: 12px;
+            }
+
+            .InfLinkGit svg {
+                top: 0;
+                left: 0;
+            }
+
+            /* ========== EMAIL ========= */
+
+            .Email {
+                width: 360px;
+                height: 72px;
+
+                border-radius: 18px;
+            }
+
+            .Email img {
+                width: 56.81px;
+                height: 54px;
+                left: 15.84px;
+                top: 8.64px;
+            }
+
+            .InforEmail {
+                width: 272.16px;
+                height: 72px;
+                top: calc(50% - 72px/2);
+
+                box-shadow: -2.88px 0px 3.6px rgba(11, 10, 7, 0.15);
+                border-radius: 14.4px 18px 18px 14.4px;
+            }
+
+            .InforEmail img {
+                width: 189.68px;
+                height: 106.7px;
+                left: 85px;
+                top: -10px;
+            }
+
+            .InforEmail svg {
+                height: 8.65px;
+                left: 90.06%;
+                right: 8.08%;
+                top: calc(50% - 8.65px/2);
+
+                z-index: 9;
+            }
+
+            .InforEmail h1 {
+                width: 45px;
+                height: 23px;
+                left: 18px;
+                top: calc(50% - 23px/2 - 0.02px);
+
+                font-size: 15.4474px;
+                line-height: 23px;
+            }
+
+            .InfLinkEmail {
+                left: 18px;
+                top: 12px;
+            }
+
+            .InfLinkEmail svg {
+                top: 0;
+                left: 0;
+            }
+
+            /* ======== FOOTER ========== */
+
+            .Footer {
+                height: 50px;
+                bottom: 10px;
+            }
+
+            .FeitoEDireitos {
+                padding: 0px;
+                gap: 8px;
+
+                width: 220px;
+                height: 41px;
+                left: calc(50% - 220px/2);
+                top: calc(50% - 41px/2);
+            }
+
+            .Feito {
+                width: 119px;
+                height: 15px;
+                left: calc(50% - 119px/2);
+                top: 5px;
+            }
+
+            .Feito h1 {
+                width: 70px;
+                height: 15px;
+                font-size: 13px;
+            }
+
+            .Feito a {
+                left: 58px;
+            }
+
+            .Direitos {
+                width: 215px;
+                height: 15px;
+                left: calc(50% - 215px/2);
+            }
+
+            .Direitos h2 {
+                width: 215px;
+                height: 15px;
+                font-size: 15px;
+            }
+        }
+
+        /* CSS TABLET */
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Header {
+                top: 120px;
+            }
+
+            .Header img {
+                left: 150px
+            }
+
+            svg {
+                top: 380px;
+            }
+
+            .Links {
+                top: 430px;
+            }
+        }
+
+        /* CSS NOTEBOOK */
+
+        @media only screen and (width >=1024px) and (width <=1440px) {
+            .Header img {
+                left: 339px
+            }
+
+            svg {
+                top: 380px;
+            }
+
+            .Links {
+                top: 430px;
+            }
+        }
